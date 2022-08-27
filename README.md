@@ -7,3 +7,7 @@ This application is an social networking API that allows users to share their th
 - [Usage](#Usage)
 - [Contact](#contact)
 
+# Installation
+* open a terminal,clone the repo
+* node.js needs to be installed all the packages
+* enter npm start to start the server.js file which will then start API on localhost PORT 3001
