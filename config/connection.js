@@ -5,4 +5,4 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/socialMed
     useUnifiedTopology: true,
 });
 
-module.exports = mongoose.connection; 
+module.exports = mongoose.connection;
