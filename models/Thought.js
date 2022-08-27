@@ -18,3 +18,12 @@ const thoughtSchema = new Schema(
         username: {
             type: String,
             required: true,
+        },
+        reactions: [reactionSchema],
+    },
+    {
+        toJSON: {
+            getters: true,
+        },
+    }
+);
