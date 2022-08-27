@@ -33,6 +33,7 @@ const userSchema = new Schema(
         },
     }
 );
+
 // Virtual to track total friend count for the user:
 userSchema.virtual("friendCount").get(() => {
     if (this.friends) {
